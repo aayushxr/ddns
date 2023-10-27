@@ -4,10 +4,16 @@ A python script that auto updates your DNS records to match your current public 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+## Installation
 
-## Getting Started
+Start by cloning this repo.
 
-First copy the example configuration file into the real one.
+```sh
+git clone https://github.com/Aayush-Rajagopalan/ddns
+cd ddns
+```
+
+Copy the example configuration file into the real one.
 
 ```sh
 cp config-example.json config.json
@@ -27,6 +33,8 @@ To schedule automatic updates, consider using the cron job scheduler. Here's an 
 ```sh
 0 * * * * python3 ~/ddns/index.py
 ```
+
+Update the location of the script based on where you stored the script 
 
 This will run the script every hour, updating the Cloudflare DNS records with the current public IP address.
 
