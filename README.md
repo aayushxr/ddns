@@ -3,7 +3,7 @@
 A python script that auto updates your DNS records to match your current public IP address
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
+[![wakatime](https://wakatime.com/badge/user/f70a8442-980a-4f23-8904-e2b27b476099/project/018b6fcb-0dc0-4670-a017-b2f022657231.svg)](https://wakatime.com/badge/user/f70a8442-980a-4f23-8904-e2b27b476099)
 ## Installation
 
 Start by cloning this repo.
