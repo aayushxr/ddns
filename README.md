@@ -9,7 +9,7 @@ A python script that auto updates your DNS records to match your current public 
 Start by cloning this repo.
 
 ```sh
-git clone https://github.com/Aayush-Rajagopalan/ddns
+git clone https://github.com/aayushxr/ddns
 cd ddns
 ```
 
@@ -43,7 +43,7 @@ This will run the script every hour, updating the Cloudflare DNS records with th
 Clone this repo and install packages listed in requirements.txt
 
 ```sh
-git clone https://github.com/Aayush-Rajagopalan/ddns
+git clone https://github.com/aayushxr/ddns
 cd ddns
 pip install -r requirements.txt
 ```
@@ -51,7 +51,7 @@ pip install -r requirements.txt
 
 ## Contributing
 
-1. Fork it (<https://github.com/Aayush-Rajagopalan/ddns/fork>)
+1. Fork it (<https://github.com/aayushxr/ddns/fork>)
 2. Create your feature branch (`git checkout -b feature/fooBar`)
 3. Commit your changes (`git commit -am 'Add some fooBar'`)
 4. Push to the branch (`git push origin feature/fooBar`)
